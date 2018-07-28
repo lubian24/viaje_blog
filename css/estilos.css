@@ -72,3 +72,21 @@ nav ul li:hover ul{
 nav ul li:hover{
     background-color: rgba(0, 184, 218,1)
 }
+
+/** Contenido principal*/
+
+div.contenido::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+main{
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+}
+
+aside{
+    float: right;
+    width: 30%;
+}
