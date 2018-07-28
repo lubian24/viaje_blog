@@ -143,3 +143,46 @@ aside ul li a{
 aside ul li:hover a{
     color: #ffffff;
 }
+
+/** Footer */
+
+footer { 
+    background-color:rgb(73, 45, 172);
+    padding-top: 40px;
+    margin-top: 30px; 
+}
+
+footer h2{
+    color: #ffffff;
+}
+footer .contenedor::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+footer div.nosotros{
+    float: left;
+    width: 30%;
+    color: #ffffff;
+}
+
+footer div.menu{
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+footer nav{
+    width: auto;
+}
+
+footer nav ul li a{
+    width: auto;
+}
+
+p.copyright{
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+}
