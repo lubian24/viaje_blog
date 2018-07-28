@@ -1,3 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color: blue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    padding: 20px 0;
+}
+div.contenedor{
+        margin: 0 auto;
+        width: 1200px;
 }
