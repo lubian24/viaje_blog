@@ -86,10 +86,6 @@ main{
     padding-right: 40px;
 }
 
-aside{
-    float: right;
-    width: 30%;
-}
 /** Articulos */
 
 article{
@@ -120,4 +116,30 @@ article p{
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+/** Sidebar */
+aside{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+}
+
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    padding: 10px 0 10px 10px;
+}
+aside ul li:hover{
+    background-color: #00b8e4;
+    cursor: pointer;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #00b8e4;
+}
+aside ul li:hover a{
+    color: #ffffff;
 }
